@@ -1,0 +1,7 @@
+{
+    "Title": "Website Subscribersi Testing",
+    "UnsubscribePage": "http://www.example.com/unsubscribed.html",
+    "UnsubscribeSetting": "AllClientLists",
+    "ConfirmedOptIn": false,
+    "ConfirmationSuccessPage": "http://www.example.com/joined.html"
+}

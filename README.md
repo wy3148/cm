@@ -36,6 +36,7 @@
 using default url: https://api.createsend.com/api/v3.1
 2018/02/17 22:23:41 response code: 200
 2018/02/17 22:23:41 body response:
+```
  {
  "ApiKey": "28160ca6ab63eda45a74d3317869b500b364b85fc31ead15",
  "BasicDetails": {
@@ -59,11 +60,14 @@ using default url: https://api.createsend.com/api/v3.1
   "ClientPays": false
  }
 }
+```
 
 
 
 ./cm list create --api_key your_api_key --client_id your_client_id --json_file example.json
 using default url: https://api.createsend.com/api/v3.1
+
+```
 2018/02/17 22:21:50 will create a new list: {
     "Title": "Website Subscribersi Testing",
     "UnsubscribePage": "http://www.example.com/unsubscribed.html",
@@ -75,4 +79,6 @@ using default url: https://api.createsend.com/api/v3.1
 2018/02/17 22:21:51 response code: 201
 2018/02/17 22:21:51 body response:
  "aaf13cd89855e2c164350cbe4cd4dba7"
+
+```
 
